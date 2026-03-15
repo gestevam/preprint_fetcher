@@ -54,7 +54,7 @@ class Preprint:
 
 BIORXIV_API = "https://api.biorxiv.org/details/biorxiv"
 
-def _safe_get(url: str, timeout: int = 60) -> dict | None:
+def _safe_get(url: str, timeout: int = 60) -> dict:
     try:
         response = requests.get(
             url,
@@ -108,7 +108,7 @@ def match_paper(paper: dict, keywords: list[str], authors: list[str]) -> tuple[l
 # Main pipeline
 # ---------------------------------------------------------------------------
 
-def run_fetch(config: dict | None = None) -> list[Preprint]:
+def run_fetch(config: dict = None) -> list[Preprint]:
     if config is None:
         config = load_config()
 
