@@ -46,7 +46,7 @@
       python scheduler.py --install-launchd
       ```
       
-  8. Open the output file from the “feed_output” subfolder, view feed in broswer, and optionally bookmark
+  8. Open the output file from the “feed_output” subfolder, view feed in browser, and optionally bookmark
      
 <br>
 
