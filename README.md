@@ -8,7 +8,7 @@
 
   ### Setup:
   
-  1. Download the scripts from onto your local machine 
+  1. Download the scripts onto your local machine 
   
   2. Go into the folder
      
