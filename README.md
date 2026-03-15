@@ -13,7 +13,7 @@
   2. Go into the folder
      
      ```
-     cd biorxiv_shareable
+     cd preprint_fetcher
      ```
   
   4. Create a virtual environment
