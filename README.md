@@ -16,35 +16,38 @@
      cd preprint_fetcher
      ```
   
-  4. Create a virtual environment
+  3. Create a virtual environment
 
       ```
       python3 -m venv .venv
       source .venv/bin/activate
       ```
   
-  6. Install the one dependency
+  4. Install the one dependency
   
       ```
       pip install requests
       ```
   
-  4. Create a personal config - open config.json and fill in your keywords and authors
+  5. Create a personal config - open config.json and fill in your keywords and authors
   
       ```
       cp config.example.json config.json
       ```
   
-  5. Test 
+  6. Test 
       ```
       python biorxiv_fetcher.py
       ```
   
-  6. Install the daily scheduler
+  7. Install the daily scheduler
   
       ```
       python scheduler.py --install-launchd
       ```
+      
+  8. Open the output file from the “feed_output” subfolder, view feed in broswer, and optionally bookmark
+     
 <br>
 
 #### Scripts written with the assistance of Claude, Sonnet 4.6
